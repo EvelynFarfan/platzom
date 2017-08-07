@@ -29,4 +29,4 @@ platzom('sometemos') // SoMeTeMoS
  - [Evelyn Farfán](https://github.com/efarfan2393)
 
  ## Licencia
- - MIT(https://opensource.org/licenses/MIT)
+ - [MIT] (https://opensource.org/licenses/MIT)
