@@ -27,7 +27,6 @@ function platzom(str) {
 	var reverse = function reverse(str) {
 		return str.split('').reverse().join('');
 	};
-
 	function minMay(str) {
 		var length = str.length;
 		var translation = '';
@@ -39,7 +38,6 @@ function platzom(str) {
 		}
 		return translation;
 	}
-
 	if (str == reverse(str)) {
 		return minMay(str);
 	}
