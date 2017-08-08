@@ -1,4 +1,4 @@
-function platzom(str){
+export default function platzom(str){
 	let translation = str;
 	//  si la palabra termina enn "ar", se le quitan esos dos caracteres
 	if(str.toLowerCase().endsWith('ar')){
@@ -37,14 +37,3 @@ function platzom(str){
 	}
 	return translation
 }
-console.log(platzom('Programar')) // program
-console.log(platzom('Zorro')) // Zorrope
-console.log(platzom('Zarpar')) // Zarppe
-console.log(platzom('abecedario'))
-console.log(platzom('sometemos'))
-
-// Arrow Function
-
-// const platzom = (str) => {
-
-// }
